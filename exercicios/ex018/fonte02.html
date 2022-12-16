@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Morris';
+            src: url('fontes/MorrisRomanBlack.otf') format('opentype'), url('fontes/MorrisRomanBlack.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -true-type-aat (Apple Advanced Typography)
+            -svg
+            */
+        }
+        body {
+            font-family: 'Morris', sans-serif;
+        }
+        h1 {
+            font-family: 'Morris', sans-serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>TESTANDO: Fontes Externas Baixadas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vitae eligendi incidunt beatae dignissimos necessitatibus molestias inventore quidem dolorem tenetur laudantium minima magni assumenda molestiae, odio officia sunt, debitis voluptatem.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio vitae vel ipsa ad tempore quidem nihil perferendis, placeat ducimus vero rem ex illo nulla, tenetur neque commodi ea explicabo?</p>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        mark {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando Com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="100"> <!--1 A a I i || a tag start não funciona colocando letras como valor, mas somente números. Exemplo na linha 34-->
+        <li>Acordar</li>
+        <li>Ir no banheiro</li>
+        <li>Ligar o computador</li>
+        <li>Beber água</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="circle"> <!--disc circle square-->
+        <li>Pão</li>
+        <li>Tomate</li>
+        <li>Presunto</li>
+        <li>Arroz</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortram</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Playstation 2</li>
+            <ul type="square">
+                <li>Need For Speed</li>
+                <li>GTA San Andreas</li>
+            </ul type="square">
+        <li>Xbox 360</li>
+            <ul type="square">
+                <li>Call of Duty: Ghosts</li>
+                <li>Midnight Club: Los Angeles</li>
+                <li>Forza Horizon 2</li>
+                <li>Minecraft: Xbox Edition</li>
+            </ul>
+        <li>Xbox One</li>
+            <ul type="square">
+                <li>Dirt Rally 2.0</li>
+                <li>Subnautica</li>
+                <li>Astroneer</li>
+                <li>GTA:</li>
+                    <ul>
+                        <li type="circle">GTA IV</li>
+                        <li type="circle">GTA V</li>
+                    </ul>
+            </ul>
+        <li>PC</li>
+            <ul type="square">
+                <li>Kerbal Space Program</li>
+                <li>Minecraft</li>
+            </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd><strong>Linguagem de marcação</strong> para a criação de <mark>conteúdo</mark> de um site.</dd>
+        <dt>CSS</dt>
+        <dd><strong>Linguagem de marcação</strong> para a criação do <mark>design</mark> de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd><strong>Linguagem de programação</strong> para a criação de <mark>interatividade</mark> de um site.</dd>
+    </dl>
+</body>
+</html>

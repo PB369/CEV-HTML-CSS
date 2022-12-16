@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video controls width="800" poster="imagens/limoes-capa.png">
+        <source src="midia/meu-video.m4v" type="video/mp4"> <!--Com a tag source, a ordem importa, isto é, carregará de cima para baixo.-->>
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1> <!--Técnica do Iframe no YT: use o INCORPORAR na área de COMPARTILHAR o vídeo-->
+    <iframe width="800" height="515" src="https://www.youtube.com/embed/_Ci0Kgdpgsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <p>ATENÇÃO AOS DIREITOS AUTORAIS NOS VÍDEOS, IMAGENS E TEXTOS NO SEU SITE.</p>
+    <hr>
+    <br>
+</body>
+</html>
